@@ -1,0 +1,12 @@
+[line-bot]
+channel_access_token = 
+
+channel_secret = 
+[notify]
+notify_client_id = 
+
+notify_client_secret = 
+[youtube]
+youtube_api_key = 
+
+youtube_channel_id = 
