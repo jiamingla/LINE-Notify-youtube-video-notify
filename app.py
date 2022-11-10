@@ -97,8 +97,7 @@ def write_token_to_db(name, target_id, access_token, timestamp) -> None:
     dict_ = {
         u'name': name,
         u'access_token': access_token,
-        u'timestamp': timestamp,
-        u'subscribe': True
+        u'timestamp': timestamp
     }
     doc_ref.set(dict_)
 
