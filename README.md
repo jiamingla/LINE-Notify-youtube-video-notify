@@ -15,6 +15,10 @@
 
 - 從有想法到寫出來的過程
 - 讀了 LINE bot Message API、LINE Notify API、Youtube API、Firebase 的文件
+
+### 如果要做類似的東西要注意的事情
+
+- LINE 加入群組或多人聊天室 選 接受邀請加入群組或多人聊天室，這樣才能邀進去，只要在群組內輸入「群組訂閱」就可以訂閱了，別像我傻傻的一樣一直在和 LINE Bot 的一對一私訊中打群組訂閱然後納悶為什麼沒有 Group id 哭哭
 - 本地未打包、打包後都能讀取到 config.ini，部署上 Cloud Run 就讀取不到，我想是 Cloud Run 有保留 config.ini 作為其他用途吧
 - 在 Dockerfile 使用 Pipenv 好像有點麻煩，輸出成 requirements.txt 就容易點了
 - Python 3.10-alpine 是檔案容量很小的版本
