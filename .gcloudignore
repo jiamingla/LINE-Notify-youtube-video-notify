@@ -1,0 +1,6 @@
+# 不需要lock
+Pipfile.lock
+
+# 開發用檔案，之後想想怎麼樣處理比較好
+fire_base.py
+notify.py

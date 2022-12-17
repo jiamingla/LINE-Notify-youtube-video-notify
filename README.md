@@ -31,6 +31,12 @@
 
 ### 之後預計要做的事情
 
+- 寫清楚如何部署，不然我自己後續更新都很難
+  ```
+   gcloud builds submit --tag gcr.io/methodist-3read3pray-crawler/3r3p
+   到cloud run 選取在CONTAINER REGISTRY最新的容器映像檔
+   這段把要用的key放在環境變數設定好後，我想其實就可以做持續部署了
+  ```
 - 新增 Notify 取消連動功能
 - 把之前爬衛理公會網站的內容也加進去
 - 寫好文件
