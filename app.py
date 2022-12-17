@@ -124,6 +124,8 @@ def get_youtube_last_video() -> str:
         video_info = youtube_spider.get_video(video_id)
         text = text + video_info['title'] + \
             "\n" + video_info['video_url'] + "\n"
+    # 去除最後的換行和特殊符號
+    text = text.rstrip()
     return text
 
 #==============================================================================================#
