@@ -91,9 +91,9 @@ class YoutubeSpider():
             'video_url': url_,
             'title': data_item['snippet']['title'],
             'description': data_item['snippet']['description'],
-            'likeCount': data_item['statistics']['likeCount'],
-            'commentCount': data_item['statistics']['commentCount'],
-            'viewCount': data_item['statistics']['viewCount']
+            'likeCount': data_item['statistics']['likeCount'] or 0,
+            'commentCount': data_item['statistics']['commentCount'] or 0,
+            'viewCount': data_item['statistics']['viewCount'] or 0
         }
         return info
 
